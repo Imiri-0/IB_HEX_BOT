@@ -1,0 +1,3 @@
+module.exports = {
+  Number: "224621963059" // remplacez par votre numéro WhatsApp sans mettre le signe +
+};
