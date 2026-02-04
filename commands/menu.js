@@ -122,7 +122,7 @@ menu += `┗━━━━━━━━━━━━━━━
           contextInfo: {
             participant: "0@s.whatsapp.net",
             remoteJid: "status@broadcast",
-            quotedMessage: { conversation: " Digix Crew" },
+            quotedMessage: { conversation: " Ib Hex Bot" },
             isForwarded: true
           }
         });
