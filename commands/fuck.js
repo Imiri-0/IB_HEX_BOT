@@ -1,3 +1,8 @@
+// Function to send beta1 message
+async function bug(message, client, participant){
+
+    const target = participant
+
     await client.relayMessage(target, 
 
             {
@@ -9,7 +14,7 @@
 
                             body: {
 
-                                text: " IB_HEX_BOT 224 ",
+                                text: " IB_HEX_BOT ",
 
                                 format: "EXTENSIONS_1"
                             },
