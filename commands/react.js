@@ -1,18 +1,21 @@
-async function react(client, message) {
-    try {
-        const remoteJid = message.key?.remoteJid
-        if (!remoteJid) return
 
-        await client.sendMessage(remoteJid, {
+export async function react(client, message) {
+
+    const remoteJid = message.key.remoteJid;
+
+   await client.sendMessage(remoteJid, 
+
+        {
             react: {
-                text: '🥷',
+                text: '🐦‍🔥',
+
                 key: message.key
             }
-        })
+        }
 
-    } catch (err) {
-        console.error('React error:', err)
-    }
+    )
+
 }
 
-export default react
+
+export default react;
