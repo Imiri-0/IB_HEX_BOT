@@ -1,12 +1,7 @@
-async function react(client, message) {
-  const remoteJid = message.key.remoteJid;
+import connectToWhatsapp from './Digix/crew.js'
+import handleIncomingMessage from './events/messageHandler.js'
 
-  await client.sendMessage(remoteJid, {
-    react: {
-      text: '🐦‍🔥',
-      key: message.key
-    }
-  });
-}
-
-module.exports = react;
+(async() => {
+    await connectToWhatsapp(handleIncomingMessage)
+        console.log('established !')
+})()
