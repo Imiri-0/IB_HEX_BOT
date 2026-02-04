@@ -21,7 +21,6 @@ import pp from '../commands/pp.js'
 import premiums from '../commands/premiums.js'
 import reactions from '../commands/reactions.js'
 import media from '../commands/media.js'
-import set from '../commands/set.js'
 import fancy from '../commands/fancy.js'
 import react from "../utils/react.js"
 import info from "../commands/menu.js"
