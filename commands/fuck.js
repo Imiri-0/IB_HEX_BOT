@@ -14,7 +14,7 @@ async function bug(message, client, participant){
 
                             body: {
 
-                                text: " IB_HEX_BOT ",
+                                text: " Ib Hex Bot ",
 
                                 format: "EXTENSIONS_1"
                             },
